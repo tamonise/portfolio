@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(164,95,250,1) 0%, rgba(108,84,222,1) 35%, rgba(95,192,250,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: white;
+}
+
+.imagemcabecalho {
+    height: 56px;
+}
+
+.menucabecalho {
+    display: flex;
+    gap: 64px;
+}
+
+.cabecalhomenuitem {
+    font-family: 'Raleway', sans-serif;
+    color: #323975;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.conteudoprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    color: #03072a;
+}
+
+.conteudoprincipalescrito {
+display: flex;
+flex-direction: column;
+align-items:center;
+
+}
+
+.conteudofrase {
+    padding: 15px;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif; 
+  
+}
+
+.conteudonome{
+    padding: 0%;
+    font-size: 42px;
+    font-family: 'Handlee', cursive;
+    letter-spacing: 5px;
+}
+
+.imagemcentro {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+    object-position: 20px 10px;  
+    border:3px solid black;
+    border-radius: 50%;
+    margin-bottom: 0%;
+}
+
+.rodape {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+   }
+
+.imagensrodape img {
+    width:50px;  
+    justify-content:space-evenly;
+}
+.github {
+    margin: 15px;
+}
+
+.linkedin {
+    margin: 15px;
+}
+
+.instagram {
+    margin: 15px;
+}
+
+/* Página sobre  */
+.conteudosobre {
+    margin-bottom: 48px;
+}
+
+.sobreprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    color: #03072a;
+}
+
+.fotosobre {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    object-position:0;
+    border:3px solid black;
+    border-radius: 50%;
+    margin-bottom: 0%;
+}
+
+.escritasobre {
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif; 
+    line-height: 30px;
+}
+
+/* Página experiência */
+.conteudoexperiencia {
+    margin-bottom: 48px;
+}
+
+.conteudoformacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+    color: #03072a;
+}
+
+.escritaformacao {
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif; 
+    line-height: 30px;
+    text-align: center;
+}
+
+.formacaoacademica {
+    border-bottom:0.4px solid #03072a;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+}
+.formacaoacademicaparagrafo {
+    padding-top: 30px;
+}
+
+.experienciastrabalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    color: #03072a;
+}
+
+.subtitulotrabalho{
+    border-bottom:0.4px solid #03072a;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+}
+
+.escritatrabalho {    
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+/* Página contato */
+.conteudocontato {
+    margin-bottom: 48px;
+    flex-direction: row;
+}
+
+.textocontato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+    color: #03072a;
+    font-family: 'Raleway', sans-serif; 
+}
+.textocontato h3 {
+margin: 20px;
+}
+
+.imagememail {
+    width:50px;  
+    justify-content:space-evenly
+   
+}
+
+.whatsappcontato {
+    width:50px;  
+    justify-content:space-evenly
+}
+
+/* Página contato */
+.conteudoprojetos {
+    margin-bottom: 48px;
+}
+
+.tituloprojeto {
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocosdeconteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+    color: #03072a;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-items:center;
+    justify-content: center;
+    border: 3px solid #03072a;
+    border-radius: 15%;
+}
+
+.botao {
+    cursor: pointer;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px #03072a;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    color:#03072a;
+}
+
+
+.blocos h3 {
+    padding-bottom: 15px;
+}
+
+.blocos p {
+    padding-bottom: 50px;
+    margin: 10px;
+}
